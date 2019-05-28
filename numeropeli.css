@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+body {
+  font-family: 'Amatic SC', cursive;
+  padding: 0 10%;
+  background-color: #131313;
+}
+
+h1 {
+  font-size: 7vw;
+  letter-spacing: 5px;
+  font-weight: 400;
+  color: #fff;
+}
+
+label {
+  letter-spacing: 2px;
+  color: #fff;
+  margin: 15px;
+  padding: 20px;
+  font-size: 2.5vw;
+}
+
+.bar-chart {
+  margin-left:auto;
+  margin-right:auto;
+  letter-spacing: 5px;
+  display: flex;
+  background-color: #131313;
+  width: 600px;
+  height: 3px;
+  align-items: stretch;
+}
+
+.bar {
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+input {
+  letter-spacing: 3px;
+  font-family: 'Amatic SC', cursive;
+  color: #fff;
+  text-align: center;
+  font-size: 2vw;
+  background-color: #131313;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin: 10px;
+}
+
+input:focus {
+  outline-width: 0;
+}
+
+button {
+  height: 1.2vw;
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: 'Amatic SC', cursive;
+  color: #fff;
+  font-size: 2vw;
+  background-color: #131313;
+  width: 30%;
+  max-width: 80%;
+  border: 1px solid white;
+  height: auto;
+}
+
+button:focus {
+  outline: none;
+}
+
+.raimo {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  letter-spacing: 6px;
+  font-size: 2.5vw;
+  color: white;
+}
+
+#luku {
+  height: 1.2vw;
+}
+#main-menu {
+  font-size:20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1;
+  margin-top:2em;
+  float: none;
+  width: 20em;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#main-menu ul {
+  margin: 0;
+  display: block;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+
+#main-menu ul li {
+  text-align: center;
+  display:inline-block;
+  margin-right: 15px;
+  line-height: 50px;
+}
+
+#main-menu ul li a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+#main-menu ul li a:hover {
+  border-bottom:2px solid rgb(55, 212, 7);
+  min-width: 100%;
+}
+#main-menu a.active {
+  border-bottom:2px solid rgb(55, 212, 7);
+ min-width: 100%;
+}

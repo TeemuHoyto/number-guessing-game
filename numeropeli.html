@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Numeropeli</title>
+  <link rel="stylesheet" type="text/css" href="numeropeli.css">
+</head>
+
+<body>
+    <div class="bar-chart">
+        <div class="bar" id="lower-bar" style="width: 0%; background-color: #00b7ff">
+          <span></span></div>
+        <div class="bar" id="middle-bar" style="width: 100%; background-color: #515151">
+          <span></span></div>
+        <div class="bar" id="upper-bar" style="width: 0%; background-color:#00b7ff">
+          <span></span></div>
+    </div> 
+  <div class="raimo">
+    <h1>Numeropeli</h1>
+    <form id="lomake">
+      <label for="luku">Arvaa luku väliltä 0-100: </label>
+      <br><br>
+      <input onkeypress="return isNumberKey(event)" id="luku" type="text" name="luku">
+      <button type="submit">Arvaa</button>
+    </form>
+
+    <p id="alempi"></p>
+    <p id="ylempi"></p>
+    <p id="vihje"></p>
+    <p id="numerot"></p>
+    <p id="arvausmaara">Arvauksiesi lukumäärä on 0</p>
+
+    <input type="button" value="LORD Reloader" onClick="document.location.reload(true)">
+    <p id="printer"></p>
+ 
+  </div>
+
+  <script src="numeropeli.js"></script>
+  <footer>
+      <nav id="main-menu">
+          <ul>
+            <li><a href="../metsasusi/index.html">Pääsivu</a></li>
+            <li><a href="../metsasusi/team.html">Mahtavat Ihmiset</a></li>
+            <li><a href="../metsasusi/project.html" class="active">Projektit</a></li>
+          </ul>
+        </nav>
+        </footer>
+</body>
+
+</html>

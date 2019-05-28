@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+.header{
+    display:inline-block;
+    width:100%;
+    height:50px;
+    background-color:#111111;
+    border-bottom:1px ridge rgba(81, 255, 0,0.3);
+}
+#nav{
+    text-align:center;}
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+      display:inline-block;
+  }
+  li a {
+      padding:8px 16px;
+      display:block;
+    font-family: 'Raleway', sans-serif;
+    
+      font-size:2em;
+    text-decoration: none;
+    color:white;
+    
+    text-align: center;
+  }
+  li :hover{
+      color:#818181;
+      border-bottom:2px solid rgb(12, 206, 255);
+  }
+  li :active{
+    color:#616161;
+    border-bottom:2px solid rgb(12, 206, 255);
+}
+
+.stick {
+    background-attachment: fixed;
+  }
+  .container{
+    height: 94vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+
+#valk{
+    width:100%;
+    height:30vw;
+    background-color:white;}
+.valk1{
+    flex-direction:row;
+    display: flex;
+    width:100%;
+    margin-bottom:5em;
+    background-color:white;
+}
+.valk2{
+    flex-direction:row;
+    display: flex;
+    width:100%;
+    margin-bottom:5em;
+    background-color:white;
+}
+
+.column{
+    float:left;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:12em;
+    text-align:center;
+    width:30%; 
+}
+
+.column1{
+    float:left;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:1.5em;
+    text-align:center;
+    width:30%; 
+}
+.li{ padding:-50px;
+   text-align:center;
+    height:auto;
+    font-family: 'Raleway', sans-serif;
+    font-size:7em;
+}
+.discription{
+    font-size:2em;
+    color:black;
+}
+.cont{
+    font-size:10px;
+    width:30%;
+    height:auto;
+}
+#kuva{
+    position: relative;
+height: 100vh;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+    background-image: url("A2.jpg");
+   
+}
+#kuva2{
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    background-image: url("A3.jpg");
+}
+#kuva3{
+    
+    background-attachment: fixed;
+    width:100%;
+    height:100%;
+    background-image: url("A18.jpg");
+}
+#kuva4{
+    width:100%;
+    height:100%;
+    background-image: url("A15.jpg");
+}
+#kuva5{
+    width:100%;
+    height:100%;
+    background-image: url("A10.jpg");
+}
+#kuva6{
+    width:100%;
+    height:100%;
+    background-image: url("A6.jpg");
+}
+#kuva7{
+    width:100%;
+    height:100%;
+    background-image: url("A13.jpg");
+}
+#kuva8{
+    width:100%;
+    height:100%;
+    background-image: url("A11.jpg");
+}
+#kuva9{
+    width:100%;
+    height:100%;
+    background-image: url("A17.jpg");
+}
+#kuva10{
+    width:100%;
+    height:100%;
+    background-image: url("A16.jpg");
+}
+#kuva11{
+    width:100%;
+    height:100%;
+    background-image: url("A5.jpg");
+}
+button:focus { outline: none; }
+select:focus { outline: none; }
+tr{
+    margin-top:10px;
+}
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid #131313;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width:90%;
+    height:16%;
+    padding:10px;
+    font-size:20px;
+    color:#000;
+    text-align: center;
+    background-color: transparent;
+  }
+  .button{
+    color:#ff3dff;
+  width:45%;
+  height:10%;
+  font-family: 'raleway', serif;
+  font-size:40px;
+  background-color: transparent;
+  border:2px solid #36382E;
+  font-weight:bold;
+}
+.button:hover{
+    background-color:rgba(54,56, 46, 0.5);
+
+}
+.button:active{
+  background-color:rgba(54,56, 46, 0.5);
+transform: scale(0.9)
+}
+.empire1{
+    width:12%;
+    position: absolute;
+		top: 40px;
+        left: 45%;
+        right: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    overflow: auto;
+    margin-top:auto;
+}
+.out{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+}
+.p{
+    padding:0em;
+     font-size:2em;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    color:black;
+}
+.droid{
+    margin-top:-40em;
+    height:auto;
+    width:90%;
+    padding-bottom:100px;
+}
+.droids{
+    float:left;
+    margin:0px;
+    width:50px; 
+}
+p{
+    padding:2em;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    color:white;
+    font-size:8em;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 4px 4px 0 #000;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    color:white;
+    font-size:8em;
+}
+.power{
+    text-shadow:none;
+    display:inline;
+    text-align:center;
+    position:relative;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+    color:black;
+    font-size:3em;
+}
+.font1{
+    margin-bottom:-900px;
+    color:#000;
+    font-size:1em;
+}
+.footer{
+height:1em;
+    background-color: white;
+    width:100%;
+}
+@media only screen and (min-width : 300px) and (max-width: 500px) {
+  
+    .li{
+        text-align:center;
+         height:auto;
+         font-family: 'Raleway', sans-serif;
+         font-size:1.7em;
+         margin-left:20px;
+     }
+    li a {
+        padding: 5px 5px;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    .out{
+        top: 40%;
+        font-size: 3.5em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+    }
+    h1{
+        top: 50%;
+        font-size: 3em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+    }
+    p{
+        top: 55%;
+        font-size: 2em;
+        
+    }
+    #kuva{
+        background-position: right 1100px top 0px;
+    
+        }
+   #kuva2{
+    background-position: right 1050px top 20px;
+
+    }
+        #kuva3{
+            background-position: right 1500px top 20px;
+        }
+        #kuva4,#kuva11{
+        background-position: right 1000px bottom 0px;
+}
+#kuva5{
+    background-position: right 700px bottom 0px;
+}
+#kuva6{
+    background-position: right 1100px bottom 40px;
+}
+#kuva7{
+    background-position: right 1700px top -10px;
+}
+#kuva8{
+    background-position: right 1600px bottom 0px;
+}
+    #kuva9{
+        background-position: right 1200px bottom 0px;
+    }
+#kuva10{
+    background-position: right 1100px bottom 0px;
+}
+.column{
+    margin-top:1em;
+    text-align:center;
+    width:100vw; 
+}
+.discription{
+    font-size:1.5em;
+    margin:-10px;
+    color:black;
+}
+.valk1{
+
+    height: 38em;
+    flex-direction:none;
+    display: block;
+    width:100vw;
+    margin-bottom:1em;
+    background-color:white;
+}
+.valk2{
+display:inline-block;
+}
+.droid{
+    width:80%;
+    margin-top:-20em;
+  margin-left:2em;
+  margin-bottom:-20px;
+}
+.p{
+
+    font-size:1.7em;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left: 10px;
+}
+.out{
+    font-size:3em;
+}
+.button{
+    margin-bottom: 1em;
+}
+.empire1 {
+    width: 20%;
+    position: absolute;
+    top: 11px;
+    left:40%;
+}
+}
+@media only screen and (min-width : 500px) and (max-width: 750px) {
+  
+    .li{
+        text-align:center;
+         height:auto;
+         font-family: 'Raleway', sans-serif;
+         font-size:2em;
+     }
+    li a {
+        padding: 5px 5px;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    .out{
+        top: 40%;
+        font-size: 3.5em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+    }
+    h1{
+        top: 40%;
+        font-size: 4em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+    }
+    p{
+        top: 55%;
+        font-size: 4em;
+        
+    }
+    #kuva,#kuva6{
+        background-position: right 1200px bottom 0px;
+    
+        }
+   #kuva2{
+    background-position: right 1050px bottom 0px;
+
+    }
+        #kuva3{
+            background-position: right 1500px bottom 0px;
+        }
+        #kuva4,#kuva11{
+        background-position: right 1000px bottom 0px;
+}
+#kuva5{
+    background-position: right 900px bottom 0px;
+}
+#kuva7{
+    background-position: right 1700px bottom 0px;
+}
+#kuva8{
+    background-position: right 1700px bottom 0px;
+}
+    #kuva9{
+        background-position: right 1200px bottom 0px;
+    }
+#kuva10{
+    background-position: right 800px bottom 0px;
+}
+.column{
+    margin-top:1em;
+    text-align:center;
+    width:100vw; 
+}
+.discription{
+    font-size:1.5em;
+    margin:-10px;
+    color:black;
+}
+.valk1{
+
+    height: 40em;
+    flex-direction:none;
+    display: block;
+    width:100vw;
+    margin-bottom:1em;
+    background-color:white;
+}
+.valk2{
+display:inline-block;
+}
+
+.droid{
+    width:50%;
+    margin-top:-20em;
+    float:left;
+}
+.p{
+    font-size:1em;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+.button{
+    margin-bottom: 1em;
+}
+.empire1 {
+    width: 25%;
+    position: absolute;
+    top: 11px;
+    left: 40%;
+}
+}
+@media only screen and (min-width : 750px) and (max-width: 1000px) {
+  
+    .li{
+        text-align:center;
+         height:auto;
+         font-family: 'Raleway', sans-serif;
+         font-size:3em;
+     }
+    li a {
+        padding: 5px 5px;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    .out{
+        top: 40%;
+        font-size: 3.5em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+    }
+    h1{
+        top: 40%;
+        font-size: 5em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+    }
+    p{
+        top: 55%;
+        font-size: 5em;
+        
+    }
+    #kuva,#kuva6{
+        background-position: right 1300px bottom 0px;
+    
+        }
+   #kuva2{
+    background-position: right 1050px bottom 0px;
+
+    }
+        #kuva3{
+            background-position: right 1500px bottom 0px;
+        }
+        #kuva4,#kuva11{
+        background-position: right 1000px bottom 0px;
+}
+#kuva5{
+    background-position: right 900px bottom 0px;
+}
+#kuva7{
+    background-position: right 1700px bottom 0px;
+}
+#kuva8{
+    background-position: right 1700px bottom 0px;
+}
+    #kuva9{
+        background-position: right 1200px bottom 0px;
+    }
+#kuva10{
+    background-position: right 800px bottom 0px;
+}
+.column{
+    margin-top:1em;
+    text-align:center;
+    width:100vw; 
+}
+.discription{
+    font-size:1.5em;
+    margin:-10px;
+    color:black;
+}
+.valk1{
+
+    height: 46em;
+    flex-direction:none;
+    display: block;
+    width:100vw;
+    margin-bottom:1em;
+    background-color:white;
+}
+.valk2{
+display:inline-block;
+}
+
+.droid{
+    width:50%;
+    margin-top:-20em;
+    float:left;
+}
+.p{
+    font-size:1.7em;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+.button{
+    margin-bottom: 1em;
+}
+.empire1 {
+    width: 15%;
+    position: absolute;
+    top: 11px;
+    left:42%;
+}
+}
+@media only screen and (min-width : 1000px)and (max-width: 1200px) {
+  
+    .li{
+        text-align:center;
+         height:auto;
+         font-family: 'Raleway', sans-serif;
+         font-size:4em;
+         margin-left:20px;
+     }
+    li a {
+        padding: 5px 5px;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    .out{
+        top: 40%;
+        font-size: 3.5em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+    }
+    h1{
+        top: 50%;
+        font-size: 6em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+    }
+    p{
+        top: 55%;
+        font-size: 5em;
+        
+    }
+    #kuva,#kuva6{
+        background-position: right 1200px bottom 10px;
+    
+        }
+   #kuva2{
+    background-position: right 1050px bottom 0px;
+
+    }
+        #kuva3{
+            background-position: right 1500px bottom 0px;
+        }
+        #kuva4,#kuva11{
+        background-position: right 1100px bottom 0px;
+}
+#kuva5{
+    background-position: right 1100px bottom 0px;
+}
+#kuva7{
+    background-position: right 1700px bottom 0px;
+}
+#kuva8{
+    background-position: right 1700px bottom 0px;
+}
+    #kuva9{
+        background-position: right 1200px bottom 0px;
+    }
+#kuva10{
+    background-position: right 1100px bottom 0px;
+}
+.column{
+    margin-top:1em;
+    text-align:center;
+    width:100vw; 
+}
+.discription{
+    font-size:1.5em;
+    margin:-10px;
+    color:black;
+}
+.valk1{
+
+    height: 46em;
+    flex-direction:none;
+    display: block;
+    width:100vw;
+    margin-bottom:1em;
+    background-color:white;
+}
+.valk2{
+display:inline-block;
+}
+.droid{
+    width:50%;
+    margin-top:-20em;
+    float:left;
+}
+.p{
+    font-size:1.7em;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+.button{
+    margin-bottom: 1em;
+}
+.empire1 {
+    width: 20%;
+    position: absolute;
+    top: 11px;
+    left:40%;
+}
+}
+@media only screen and (min-width : 1200px) and (max-width: 1500px) {
+  
+    .li{
+        text-align:center;
+         height:auto;
+         font-family: 'Raleway', sans-serif;
+         font-size:4em;
+         margin-left:20px;
+     }
+    li a {
+        padding: 5px 5px;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    .out{
+        top: 40%;
+        font-size: 3.5em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+    }
+    h1{
+        top: 50%;
+        font-size: 6em;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+    }
+    p{
+        top: 55%;
+        font-size: 5em;
+        
+    }
+    #kuva,#kuva6{
+        background-position: right 1500px bottom 10px;
+    
+        }
+   #kuva2{
+    background-position: right 1550px bottom 0px;
+
+    }
+        #kuva3{
+            background-position: right 1500px bottom 0px;
+        }
+        #kuva4,#kuva11{
+        background-position: right 1500px bottom 0px;
+}
+#kuva5{
+    background-position: right 1500px bottom 0px;
+}
+#kuva7{
+    background-position: right 1700px bottom 0px;
+}
+#kuva8{
+    background-position: right 1700px bottom 0px;
+}
+    #kuva9{
+        background-position: right 1500px bottom 0px;
+    }
+#kuva10{
+    background-position: right 1500px bottom 0px;
+}
+.column{
+    margin-top:1em;
+    text-align:center;
+    width:100vw; 
+}
+.discription{
+    font-size:1.5em;
+    margin:-10px;
+    color:black;
+}
+.valk1{
+
+    height: 36em;
+    flex-direction:none;
+    display: block;
+    width:100vw;
+    margin-bottom:1em;
+    background-color:white;
+}
+.valk2{
+display:inline-block;
+}
+
+.droid{
+    width:80%;
+    margin-top:-20em;
+    float:left;
+}
+.p{
+    font-size:1.7em;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+.button{
+    margin-bottom: 1em;
+}
+.empire1 {
+    width: 20%;
+    position: absolute;
+    top: 11px;
+    left:40%;
+}
+}
